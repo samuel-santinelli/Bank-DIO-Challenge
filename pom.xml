@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>3.3.2</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+	<groupId>samuel-santinelli</groupId>
+	<artifactId>bank-challenge</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>bank-challenge</name>
+	<description>Project Title: Bank Account Management System  Overview: The Bank Account Management System is a Java-based application developed as part of a challenge for a banking institution. The primary goal of the project is to manage bank accounts by allowing users to perform essential operations such as creating accounts, viewing account details, and processing transactions.  Key Features:  Account Creation: Users can create new bank accounts by providing essential information such as account holder&apos;s name, account type (savings or checking), and an initial deposit amount. Account Information Retrieval: The application allows users to retrieve and display account details, including the account number, balance, and account holder&apos;s information. Transaction Management: Users can perform deposit and withdrawal operations on their accounts. The system ensures that withdrawals do not exceed the available balance. Data Persistence: The application uses a file-based approach to store account information, ensuring that data is retained between sessions. Error Handling: The system includes basic error handling to manage invalid inputs and transactions that could lead to inconsistencies, such as overdrafts. Technologies Used:  Java: The core language used for developing the application, leveraging object-oriented principles. File I/O: To persist account data across different sessions. Command-Line Interface (CLI): A text-based interface that allows users to interact with the system via terminal commands. Outcome: This project demonstrates the application of core Java concepts such as object-oriented programming, file handling, and basic error management. It serves as a solid foundation for more complex banking applications and showcases the ability to handle essential banking operations efficiently.</description>
+	<url/>
+	<licenses>
+		<license/>
+	</licenses>
+	<developers>
+		<developer/>
+	</developers>
+	<scm>
+		<connection/>
+		<developerConnection/>
+		<tag/>
+		<url/>
+	</scm>
+	<properties>
+		<java.version>17</java.version>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>
